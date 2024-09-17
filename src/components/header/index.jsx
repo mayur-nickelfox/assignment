@@ -1,7 +1,7 @@
+import { ExpandMore } from "@mui/icons-material";
+import { IconButton, Menu, MenuItem } from "@mui/material";
 import React, { useState } from "react";
 import "./Header.css";
-import { Menu, MenuItem, IconButton } from "@mui/material";
-import { ExpandMore } from "@mui/icons-material";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

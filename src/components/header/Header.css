@@ -28,8 +28,19 @@
   transition: color 0.3s;
   font-weight: 500;
 }
+.nav ul li p {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: 500;
+  cursor: pointer;
+}
 
 .nav ul li a:hover {
+  color: #06BE85;
+  font-weight: medium;
+}
+.nav ul li p:hover {
   color: #06BE85;
   font-weight: medium;
 }

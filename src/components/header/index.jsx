@@ -35,7 +35,7 @@ const Header = () => {
             style={{ display: "flex", alignItems: "center" }}
             onClick={handleMenuClick}
           >
-            <a>Contact</a>
+            <p>Contact</p>
             <IconButton
               disableRipple
               aria-controls="dropdown-menu"

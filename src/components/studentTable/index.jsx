@@ -397,7 +397,7 @@ export default function StudentTable() {
         component={Paper}
         sx={{ maxWidth: "90%", height: "70vh", margin: "auto", mt: 4 }}
       >
-        <Table stickyHeader aria-label="sticky table">
+        <Table  aria-label="sticky table">
           <TableHead>
             <TableRow
               style={{ width: "50px", backgroundColor: "#06BE85 !important" }}

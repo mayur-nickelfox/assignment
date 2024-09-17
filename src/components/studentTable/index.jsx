@@ -29,7 +29,7 @@ import * as React from "react";
 import { useEffect, useState } from "react";
 
 function Row(props) {
-  const { row, onEdit, onFlag, onDelete, onRowClick, index, skeleton } = props;
+  const { row, onEdit, onFlag, onDelete, onRowClick, skeleton } = props;
   const [open, setOpen] = React.useState(false);
 
   // Menu handling state
@@ -397,7 +397,7 @@ export default function StudentTable() {
         component={Paper}
         sx={{ maxWidth: "90%", height: "70vh", margin: "auto", mt: 4 }}
       >
-        <Table  aria-label="sticky table">
+        <Table aria-label="sticky table">
           <TableHead>
             <TableRow
               style={{ width: "50px", backgroundColor: "#06BE85 !important" }}
